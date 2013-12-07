@@ -1,5 +1,8 @@
-setlocal foldmethod=marker
-setlocal foldmarker={,}
+"setlocal foldmethod=marker
+"setlocal foldmarker={,}
+"setlocal foldlevel=1
+setlocal foldmethod=indent
+setlocal foldnestmax=2
 setlocal foldlevel=1
 " Don't screw up folds when inserting text that might affect them, until
 " leaving insert mode. Foldmethod is local to the window. Protect against
